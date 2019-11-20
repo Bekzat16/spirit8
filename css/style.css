@@ -1,0 +1,555 @@
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+    text-transform: uppercase;
+}
+
+
+/*#######################  HEADER  #######################*/
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 28px;
+}
+nav{
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.mobile-btn{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.mobile-btn span{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background: #d17e32;
+}
+.mobile-btn span:before{
+    content: '';
+    position: absolute;
+    /*top: 0;*/
+    /*right: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    height: 100%;
+    background: #d17e32;
+    top: -10px;
+}
+.mobile-btn span:after{
+    content: '';
+    position: absolute;
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*left: 0;*/
+    width: 100%;
+    height: 100%;
+    background: #d17e32;
+    bottom: -10px;
+}
+.show span{
+    background: transparent;
+}
+.show span:before{
+    transform: rotate(-45deg);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.show span:after{
+    transform: rotate(45deg);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.logo{
+    color: #ffff;
+    font-size: 2.4rem;
+}
+.menu{
+    margin: 0;
+}
+.menu .menu-list-item{
+    display: inline-block;
+    margin-left: 27px;
+}
+.menu-list-item a{
+    color: white;
+    font-size: 14px;
+}
+
+/*#######################  HEADER  #######################*/
+
+
+
+/*#######################  HERO  #######################*/
+
+#hero{
+    height: 100vh;
+    background: #111;
+}
+.hero-content{
+    padding-top: 20%;
+    text-align: center;
+}
+.top-title{
+    color: #999;
+    font-size: 4.4rem;
+}
+.top-title span{
+    color: #fcac45;
+}
+.top-description{
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+/*#######################  HERO  #######################*/
+
+
+
+
+/*#######################  HERO-2  #######################*/
+
+.hero-content-2{
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+}
+.col-6{
+    width: 50%;
+}
+.box-2 p{
+    font-size: 20px;
+    color: #acacac;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.box-2{
+    position: absolute;
+    left: 142px;
+}
+.box-2 h1{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+.box-2 h1:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    height: 2px;
+    width: 103px;
+    border-bottom: 4px solid #fcac45;
+    margin-bottom: 5px;
+}
+.box-2 span{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 34px;
+}
+.box-2 .p{
+    font-size: 18px;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.box-2 dl dt{
+    font-weight: 600;
+    font-size: 16px;
+    color: #5a5a5a;
+    margin-bottom: 15px;
+}
+.box-2 dl dt span{
+    text-transform: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: #868686;
+}
+.button{
+    border: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #616161;
+    border: 2px solid #7f7f7f;
+    display: inline-block;
+    padding: 8px 28px;
+    margin-top: 20px;
+}
+
+
+/*#######################  HERO-2  #######################*/
+
+
+
+/*#######################  SECTION  #######################*/
+#section{
+    background: #111;
+}
+.title{
+    text-align: center;
+    padding-top: 95px;
+}
+.title{
+    position: relative;
+    color: #acacac;
+    text-transform: uppercase;
+    font-size: 44px;
+}
+.title:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -20px;
+    height: 5px;
+    width: 100px;
+    background-color: #fcac45;
+}
+.title:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -30px;
+    height: 5px;
+    width: 40px;
+    background-color:  #b37b33;
+}
+.title span{
+    color: white;
+    text-transform: uppercase;
+}
+.small-section{
+    padding-top: 95px;
+    padding-bottom: 95px;
+    display: flex;
+}
+.col-3{
+    padding-left: 15px;
+    text-align: center;
+}
+.col-3 .h-1{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.col-3 .h-3{
+    font-size: 13px;
+    color: #ffff;
+}
+.col-3 p {
+    font-size: 14px;
+    color: #ffff;
+}
+.box div{
+    display: flex;
+    justify-content: center;
+}
+.box div img{
+    padding-left: 13px;
+    margin-bottom: 60px;
+}
+/*#######################  SECTION  #######################*/
+
+
+
+/*#######################  SERVICES  #######################*/
+#services{
+    margin-bottom: 20px;
+}
+.title-2{
+    text-align: center;
+    padding-top: 95px;
+    color: #4e4e4e;
+}
+.title-2{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 44px;
+}
+.title-2:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -20px;
+    height: 5px;
+    width: 100px;
+    background-color: #fcac45;
+}
+.title-2:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -30px;
+    height: 5px;
+    width: 40px;
+    background-color:  #b37b33;
+}
+.title-2 span{
+    color: #222222;
+    text-transform: uppercase;
+}
+#services .container p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+.services-item{
+    margin-top: 100px;
+}
+.services-title{
+    margin-top: 25px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.services-description{
+    margin-top: 25px;
+    font-size: 14px;
+}
+.svg{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    border: 4px solid #fcac45;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+/*#######################  SERVICES  #######################*/
+/*#######################  clients  #######################*/
+#clients{
+    background: #111;
+}
+.title-3{
+    text-align: center;
+    padding-top: 95px;
+    color: #4e4e4e;
+}
+.title-3{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 44px;
+    color: #8d8d8d;
+}
+.title-3:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -20px;
+    height: 5px;
+    width: 100px;
+    background-color: #fcac45;
+}
+.title-3:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -30px;
+    height: 5px;
+    width: 40px;
+    background-color:  #b37b33;
+}
+.title-3 span{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.clients-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.clients-list li{
+    margin-bottom: 90px;
+}
+/*#######################  clients  #######################*/
+
+
+/*#######################  look  #######################*/
+.look-description{
+    margin-top: 60px;
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.portfolio-item{
+    height: 238px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+.hover-text{
+    text-align: center;
+    padding: 25% 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -239px;
+    background: #222;
+    color: #fff;
+    transition: all 0.6s;
+}
+.portfolio-item:hover .hover-text{
+    bottom: 0;
+}
+.hover-text h4{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.hover-text p{
+    color: #a9a9a9
+}
+.portfolio-item i{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fcac45;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #fcac45;
+}
+/*#######################  look  #######################*/
+
+
+/*#######################  testimonial  #######################*/
+#testimonial{
+    background: #222;
+}
+#testimonial h2{
+    color: white;
+}
+#testimonial span{
+    color: #8d8d8d;
+}
+.testimonial-description{
+    color: #e8e8e8;
+    margin-top: 60px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#testimonial h4{
+    color: #b2b2b2;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#testimonial h4 span{
+    color: #6f6f6f;
+}
+
+/*#######################  testimonial  #######################*/
+
+
+/*#######################  contacts  #######################*/
+#contacts h2{
+    margin-bottom: 60px;
+}
+.contacts-description{
+    color: #6c6c6c;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.form-row{
+    height: 40px;
+    margin-bottom: 30px;
+}
+.form-group{
+    height: 40px;
+    margin-bottom: 30px;
+}
+.form-group_2{
+    margin-bottom: 30px;
+}
+#contacts .button {
+    float: right;
+}
+#contacts .button {
+    border: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #616161;
+    border: 2px solid #fcac45;
+    display: inline-block;
+    padding: 7px 28px;
+    background: #fcac45;
+    margin-bottom: 100px;
+}
+#contacts .button a{
+    background: #fcac45;
+    padding: 0 20px;
+    color: white;
+}
+textarea.form-control {
+    height: auto;
+    padding-bottom: 145px;
+}
+
+/*#######################  contacts  #######################*/
+
+
+/*#######################  contacts_2  #######################*/
+#contacts_2 {
+    background: #222;
+}
+#contacts_2 h4{
+    color: #585858;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#contacts_2 span{
+    color: #a9a9a9;
+    font-size: 12px;
+}
+.menu .menu-contacts-item{
+    display: inline-block;
+    margin-left: 27px;
+}
+#contacts_2 ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.menu-1 .menu-contacts-item{
+    display: inline-block;
+    margin-left: 27px;
+}
+.menu-1 .menu-contacts-item i{
+    font-size: 25px;
+    color: #ababab;
+}
+
+
+/*#######################  contacts_2  #######################*/
